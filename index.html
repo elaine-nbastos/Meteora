@@ -17,7 +17,9 @@
 <body>
     <nav class="navbar navbar-expand-md bg-black navbar-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><h1 class="m-0"> <img class="d-block" src="./assets/logo-meteora.png" alt="Logo da loja Meteora"></h1></a>
+            <a class="navbar-brand" href="#">
+                <h1 class="m-0"> <img class="d-block" src="./assets/logo-meteora.png" alt="Logo da loja Meteora"></h1>
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -39,7 +41,8 @@
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
-                    <input class="form-control me-2 rounded-0" type="search" placeholder="Digite o produto" aria-label="Search">
+                    <input class="form-control me-2 rounded-0" type="search" placeholder="Digite o produto"
+                        aria-label="Search">
                     <button class="btn btn-outline-light rounded-0" type="submit">Buscar</button>
                 </form>
             </div>
@@ -57,30 +60,35 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="img-fluid d-md-none d-xl-none" src="./assets/Mobile/banner1-mobile.png" alt="Modelo feminina vestindo blusa rosa fluorescente, em fundo lilás">
-                <img class="img-fluid d-none d-md-block d-xl-none" src="./assets/Tablet/banner1-tablet.png" alt="Modelo feminina vestindo blusa rosa fluorescente, em fundo lilás">
-                <img class="img-fluid d-none d-xl-block" src="./assets/Desktop/banner1-desktop.png" alt="Modelo feminina vestindo blusa rosa fluorescente, em fundo lilás">
+                <img class="w-100 img-fluid d-md-none d-xl-none" src="./assets/Mobile/banner1-mobile.png"
+                    alt="Modelo feminina vestindo blusa rosa fluorescente, em fundo lilás">
+                <img class="w-100 img-fluid d-none d-md-block d-xl-none" src="./assets/Tablet/banner1-tablet.png"
+                    alt="Modelo feminina vestindo blusa rosa fluorescente, em fundo lilás">
+                <img class="w-100 img-fluid d-none d-xl-block" src="./assets/Desktop/banner1-desktop.png"
+                    alt="Modelo feminina vestindo blusa rosa fluorescente, em fundo lilás">
+             </div>
+            <div class="carousel-item position-relative" >
+                <img class="w-100 img-fluid d-md-none d-xl-none" src="./assets/Mobile/banner2-mobile.png"
+                    alt="Modelo feminina vestindo moleton preto, em fundo rosa">
+                <img class="w-100 img-fluid d-none d-md-block d-xl-none" src="./assets/Tablet/banner2-tablet.png"
+                    alt="Modelo feminina vestindo moleton preto, em fundo rosa">
+                <img class="w-100 img-fluid d-none d-xl-block" src="./assets/Desktop/banner2-desktop.png"
+                    alt="Modelo feminina vestindo moleton preto, em fundo rosa">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
+                    <h5 class="fs-1">COLEÇÃO ATEMPORAL</h5>
+                    <p class="fs-4">Estilo e qualidade para durar.</p>
                 </div>
             </div>
-            <div class="carousel-item">
-                <img class="img-fluid d-md-none d-xl-none" src="./assets/Mobile/banner2-mobile.png" alt="Modelo feminina vestindo moleton preto, em fundo rosa">
-                <img class="img-fluid d-none d-md-block d-xl-none" src="./assets/Tablet/banner2-tablet.png" alt="Modelo feminina vestindo moleton preto, em fundo rosa">
-                <img class="img-fluid d-none d-xl-block" src="./assets/Desktop/banner2-desktop.png" alt="Modelo feminina vestindo moleton preto, em fundo rosa">
+            <div class="carousel-item position-relative">
+                <img class="w-100 img-fluid d-md-none d-xl-none" src="./assets/Mobile/banner3-mobile.png"
+                    alt="Modelo masculino vestindo moleton, gravata e chapéu, em fundo laranja.">
+                <img class="w-100 img-fluid d-none d-md-block d-xl-none" src="./assets/Tablet/banner3-tablet.png"
+                    alt="Modelo masculino vestindo moleton, gravata e chapéu, em fundo laranja.">
+                <img class="w-100 img-fluid d-none d-xl-block" src="./assets/Desktop/banner3-desktop.png"
+                    alt="Modelo masculino vestindo moleton, gravata e chapéu, em fundo laranja.">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img class="img-fluid d-md-none d-xl-none" src="./assets/Mobile/banner3-mobile.png" alt="Modelo masculino vestindo moleton, gravata e chapéu, em fundo laranja.">
-                <img class="img-fluid d-none d-md-block d-xl-none" src="./assets/Tablet/banner3-tablet.png" alt="Modelo masculino vestindo moleton, gravata e chapéu, em fundo laranja.">
-                <img class="img-fluid d-none d-xl-block" src="./assets/Desktop/banner3-desktop.png" alt="Modelo masculino vestindo moleton, gravata e chapéu, em fundo laranja.">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
+                    <h5 class="fs-1">COLEÇÃO ATEMPORAL</h5>
+                    <p class="fs-4">Alto impacto fvisuual, baixo impacto ambiental!</p>
                 </div>
             </div>
         </div>
@@ -96,97 +104,91 @@
         </button>
     </div>
 
-    <h2 class="text-center">Busca por categoria:</h2>
+    <h2 class="text-center my-3 my-xl-5">Busca por categoria:</h2>
 
     <div class="container row mx-auto g-4">
 
         <div class="col-6 col-md-4 col-xxl-2">
-            <div class="card">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
-                        dy=".3em">Image cap</text>
-                </svg>
+            <div class="card rounded-0 border-0">
+                <img class="d-md-none d-block" src="./assets/Mobile/categorias/categoria-camiseta.png"
+                    alt="Camiseta masculina, de manga, na cor verde, com bolso, com detalhe vermelho.">
+                <img class="d-none d-md-block d-xl-none" src="./assets/Tablet/categorias/categoria-camiseta.png"
+                    alt="Camiseta masculina, de manga, na cor verde, com bolso, com detalhe vermelho.">
+                <img class="d-none d-xl-block" src="./assets/Desktop/categorias/categoria-camiseta.png"
+                    alt="Camiseta masculina, de manga, na cor verde, com bolso, com detalhe vermelho.">
                 <div class="card-header bg-black text-bg-dark">
-                    <p class="text-center text-white">Categoria</p>
+                    <p class="text-center card-text">Camisetas</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-xxl-2">
+            <div class="card rounded-0 border-0">
+                <img class="d-md-none d-block" src="./assets/Mobile/categorias/categoria-bolsas.png"
+                    alt="Bolsa feminina, de couro, na cor marrom, col alça em corrente.">
+                <img class="d-none d-md-block d-xl-none" src="./assets/Tablet/categorias/categoria-bolsas.png"
+                    alt="Bolsa feminina, de couro, na cor marrom, col alça em corrente.">
+                <img class="d-none d-xl-block" src="./assets/Desktop/categorias/categoria-bolsa.png"
+                    alt="Bolsa feminina, de couro, na cor marrom, col alça em corrente.">
+                <div class="card-header bg-black text-bg-dark">
+                    <p class="text-center card-text">Bolsas</p>
                 </div>
             </div>
         </div>
         <div class="col-6 col-md-4 col-xxl-2">
             <div class="card">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
-                        dy=".3em">Image cap</text>
-                </svg>
+                <img class="d-md-none d-block" src="./assets/Mobile/categorias/categoria-calcados.png"
+                    alt="Par de tenis coloridos, com listras, solado branco e cadarço vermelho.">
+                <img class="d-none d-md-block d-xl-none" src="./assets/Tablet/categorias/categoria-calcados.png"
+                    alt="Par de tenis coloridos, com listras, solado branco e cadarço vermelho.">
+                <img class="d-none d-xl-block" src="./assets/Desktop/categorias/categoria-calcados.png"
+                    alt="Par de tenis coloridos, com listras, solado branco e cadarço vermelho.">
                 <div class="card-header bg-black text-bg-dark">
-                    <p class="text-center text-white">Categoria</p>
+                    <p class="text-center card-text">Calçados</p>
                 </div>
             </div>
         </div>
         <div class="col-6 col-md-4 col-xxl-2">
             <div class="card">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
-                        dy=".3em">Image cap</text>
-                </svg>
+                <img class="d-md-none d-block" src="./assets/Mobile/categorias/categoria-calcas.png"
+                    alt="Calças jeans dobradas e colocadas uma sobre a outra do tom mais claro para o mais escuro">
+                <img class="d-none d-md-block d-xl-none" src="./assets/Tablet/categorias/categoria-calcas.png"
+                    alt="Calças jeans dobradas e colocadas uma sobre a outra do tom mais claro para o mais escuro">
+                <img class="d-none d-xl-block" src="./assets/Desktop/categorias/categoria-calcas.png"
+                    alt="Calças jeans dobradas e colocadas uma sobre a outra do tom mais claro para o mais escuro">
                 <div class="card-header bg-black text-bg-dark">
-                    <p class="text-center text-white">Categoria</p>
+                    <p class="text-center card-text">Calças</p>
                 </div>
             </div>
         </div>
         <div class="col-6 col-md-4 col-xxl-2">
             <div class="card">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
-                        dy=".3em">Image cap</text>
-                </svg>
+                <img class="d-md-none d-block" src="./assets/Mobile/categorias/categoria-casacos.png"
+                    alt="Casaco de manga, de ziper, na cor marrom. ">
+                <img class="d-none d-md-block d-xl-none" src="./assets/Tablet/categorias/categoria-casacos.png"
+                    alt="Casaco de manga, de ziper, na cor marrom. ">
+                <img class="d-none d-xl-block" src="./assets/Desktop/categorias/categoria-casacos.png"
+                    alt="Casaco de manga, de ziper, na cor marrom. ">
                 <div class="card-header bg-black text-bg-dark">
-                    <p class="text-center text-white">Categoria</p>
+                    <p class="text-center card-text">Casacos</p>
                 </div>
             </div>
         </div>
         <div class="col-6 col-md-4 col-xxl-2">
             <div class="card">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
-                        dy=".3em">Image cap</text>
-                </svg>
+                <img class="d-md-none d-block" src="./assets/Mobile/categorias/categoria-oculos.png"
+                    alt="Óculos escuro, de armação dourada, com lente redonda.">
+                <img class="d-none d-md-block d-xl-none" src="./assets/Tablet/categorias/categoria-oculos.png"
+                    alt="Óculos escuro, de armação dourada, com lente redonda.">
+                <img class="d-none d-xl-block" src="./assets/Desktop/categorias/categoria-oculos.png"
+                    alt="Óculos escuro, de armação dourada, com lente redonda.">
                 <div class="card-header bg-black text-bg-dark">
-                    <p class="text-center text-white">Categoria</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-6 col-md-4 col-xxl-2">
-            <div class="card">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
-                        dy=".3em">Image cap</text>
-                </svg>
-                <div class="card-header bg-black text-bg-dark">
-                    <p class="text-center text-white">Categoria</p>
+                    <p class="text-center card-text">Óculos</p>
                 </div>
             </div>
         </div>
     </div>
 
-    <h2 class="text-center">Produtos que estão bombando!</h2>
+    <h2 class="container text-center my-3 my-xl-5">Produtos que estão bombando!</h2>
 
     <div class="container row mx-auto g-4">
         <div class=" col-12 col-md-6 col-xl-4">
@@ -343,11 +345,11 @@
         </div>
     </section>
 
-    <form class="border border-secondary m-3 p-3 text-center">
+    <form class="border border-secondary my-3 my-xl-5 p-3 text-center">
         <h5>Quer receber nossas novidades, promoções exclusivas e 10% OFF na primeira compra? Cadastre-se!</h5>
         <div class="input-group my-3">
-            <input type="email" class="form-control border-secondary rounded-0" placeholder="Digite seu e-mail" aria-label="Digite seu e-mail"
-                aria-describedby="button-addon2" />
+            <input type="email" class="form-control border-secondary rounded-0" placeholder="Digite seu e-mail"
+                aria-label="Digite seu e-mail" aria-describedby="button-addon2" />
             <button type="button" id="button-addon2">Enviar</button>
         </div>
     </form>
